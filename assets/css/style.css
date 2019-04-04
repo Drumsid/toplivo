@@ -31,6 +31,9 @@
 	text-transform: uppercase;
 	font-size: 44px;
 }
+.head-title p {
+	font-weight: 500;
+}
 .head-title h2:after {
 	content: url(../img/border-mini-red.png);
 	display: block;
@@ -67,12 +70,19 @@
 	align-items: center;
 	border: none;
 }
+.card-body {
+	font-weight: 500;
+}
 .arw {
 	margin: 0 0 60px 0;
 }
 .btn-arw {
 	color: #000;
-	background: #EBEFF0;
+	font-size: 22px;
+	background-image: url(../img/btn-bg.png);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 689px;
 }
 .card-box {
 	display: flex;
@@ -139,7 +149,19 @@
 .w-footer {
 	background: #fff;
 }
-
+.foot-block {
+	width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+.right-foot ul {
+	list-style: none;
+	text-align: right;
+	color: #8A9097;
+	font-size: 12px;
+}
 
 
 
