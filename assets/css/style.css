@@ -1,0 +1,150 @@
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}
+.head-bg {
+	background-image: url(../img/azs-header.png);
+	max-width: 100%;
+	height: 726px;
+}
+.head-box-bg {
+	background-image: url(../img/azs-pistolet-header.png);
+	height: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+	
+}
+.head-top-box-img {
+	width: 1140px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 20px 0 0 0;
+}
+.top-red-btn {
+	margin: 0 20px 0 0;
+	padding: 5px 20px 5px 35px;
+	border-radius: 30px;
+	background: #F34F3E;
+}
+.head-title h2 {
+	text-transform: uppercase;
+	font-size: 44px;
+}
+.head-title h2:after {
+	content: url(../img/border-mini-red.png);
+	display: block;
+	margin: -20px 0 20px 0;
+	
+}
+.title-red-btn {
+	background: #F34F3E;
+	color: #fff;
+	border-radius: 30px;
+	font-size: 12px;
+	padding: 10px 20px;
+	margin: 20px 0 0 0;
+}
+.head-title {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 658px;
+}
+.white-bg {
+	background: #fff;
+}
+.w-title h2 {
+	padding: 70px 0 70px 0;
+}
+.card-block {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+	align-items: center;
+	border: none;
+}
+.arw {
+	margin: 0 0 60px 0;
+}
+.btn-arw {
+	color: #000;
+	background: #EBEFF0;
+}
+.card-box {
+	display: flex;
+	justify-content: center;
+	padding: 70px 0 70px 0;
+}
+.incar-bg {
+	background: #3F526A;
+	background-image: url(../img/in-car.png);
+	height: 550px;
+    background-repeat: no-repeat;
+	background-position: bottom right;
+	
+}
+.incar-title {
+	height: 550px;
+	color: #fff;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+.incar-title h2 {
+	text-transform: uppercase;
+	margin: 0 0 20px;
+}
+.incar-title p {
+	width: 75%;
+	margin: 0 0 20px;
+}
+.map-bg {
+	background-image: url(../img/map.png);
+	height: 680px;
+    background-repeat: no-repeat;
+}
+.trapecia {
+	background-image: url(../img/trapecia.png);
+	height: 254px;
+	width: 441px;
+    background-repeat: no-repeat;
+}
+.trapecia {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+	margin: 65px 0 0;
+}
+.trapecia p {
+	font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    line-height: 1.5;
+}
+.img-block {
+	width: 52%;
+    display: flex;
+    justify-content: flex-start;
+}
+.img-block img {
+	margin: 0 7px 0;
+}
+.w-footer {
+	background: #fff;
+}
+
+
+
+
+
+
+
+
+
