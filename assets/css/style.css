@@ -14,8 +14,10 @@
     background-position: bottom right;
 	
 }
+.head-box {
+	width: 100%;
+}
 .head-top-box-img {
-	width: 1140px;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -115,9 +117,14 @@
 	margin: 0 0 20px;
 }
 .map-bg {
-	background-image: url(../img/map.png);
+	/* background-image: url(../img/map.png); */
+	position: relative;
 	height: 680px;
     background-repeat: no-repeat;
+}
+.map-block {
+	position: absolute;
+	top: 10vh;
 }
 .trapecia {
 	background-image: url(../img/trapecia.png);
@@ -301,6 +308,10 @@
 .mob-img {
 	display: none;
 }
+.qr-btn{
+	display: none;
+}
+
 /* ----------------------------------------------------------------------------------media */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px)
 {
@@ -367,5 +378,55 @@
 	.right-foot ul {
 		text-align: center;
 		padding: 15px 0 0;
+	}
+	/* index */
+	.arw {
+		display: none;
+	}
+	.head-top-box-img {
+		justify-content: center;
+	}
+	.card-block {
+		display: block;
+	}
+	.head-box-bg {
+		 background-image: none; 
+	}
+	.head-title {
+		align-items: center;
+		text-align: center;
+	}
+	.title-red-btn {
+		font-size: 20px;
+		padding: 10px 60px;
+	}
+	.btn-arw {
+		display: none;
+	}
+	.qr-btn{
+		display: block;
+		padding: 10px 50px;;
+	}
+	.incar-bg {
+		background-image: none;
+	}
+	.incar-title {
+		align-items: center;
+		width: 100%;
+		text-align: center;
+		padding: 0 5px;
+	}
+	.map-block {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.trapecia {
+		background-image: none ;
+		height: 254px;
+		width: 293px;
+		background: #fff;
+		text-align: center;
+		margin: 0;
 	}
 }
