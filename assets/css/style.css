@@ -162,11 +162,132 @@
 	color: #8A9097;
 	font-size: 12px;
 }
+/* talons */
+.top-nav-bg {
+	background: #41556C;
+}
+.container-top-talon {
+	padding: 0;
+}
+.navbar {
+	height: 80px;
+	background: #41556C;
+	color: #fff;
+}
+.navbar-nav .nav-item .nav-link {
+	color: #fff;
+}
+.navbar-nav .nav-item .nav-link:hover {
+	color: #F34F3E;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 30px;
+	padding: 7px 20px;
+}
+.navbar-nav .nav-item .exit-link {
+	color: #F34F3E;
+	border: 1px solid #F34F3E;
+	border-radius: 30px;
+	padding: 7px 20px;
+	margin: 0 30px 0;
 
-
-
-
-
-
-
-
+}
+.navbar-nav .nav-item .exit-link:hover {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.nav-flex {
+	justify-content: flex-end;
+    width: 75%;
+}
+.nav-flex li {
+	margin: 0 50px 0 20px;
+}
+.nav-flex-r {
+	justify-content: flex-end;
+    display: flex;
+    width: 25%;
+}
+.dropdown-menu {
+	min-width: 0;
+}
+.talon-choice {
+	background: #EEF4FC;
+}
+.talon-title {
+	width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+	padding: 70px 0 0;
+}
+.talon-title h2 {
+	font-size:34px;
+}
+.link-block {
+	padding: 25px 0 20px;
+}
+.link-block a {
+	font-weight: 500;
+	color: #F34F3E;
+	text-transform: uppercase;
+	border-bottom: 2px solid #F34F3E;
+	padding: 0 5px 5px;
+	margin: 0 30px;
+	text-decoration: none;
+}
+.link-block .link-not-active {
+	color: #A4B5BC;
+	text-transform: uppercase;
+	border-bottom: 2px solid #A4B5BC;
+	padding: 0 20px 5px;
+}
+.talon-title button {
+	font-size: 20px;
+	padding: 12px 55px;
+}
+.talon-title button:hover {
+	color: #F34F3E;
+	background: #fff;
+	border: 1px solid #F34F3E;
+}
+.azs-talon-choice {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+	margin: 25px 0 0;
+	padding: 0 0 100px;;
+}
+.talon-card {
+	background: #fff;
+	width: 50%;
+    display: flex;
+    align-items: center;
+	justify-content: space-around;
+	padding: 13px 10px;
+	margin: 15px 0;
+	box-shadow: -webkit-box-shadow: 10px 10px 9px -11px rgba(0,0,0,0.38);
+	-moz-box-shadow: 10px 10px 9px -11px rgba(0,0,0,0.38);
+	box-shadow: 10px 10px 9px -11px rgba(0,0,0,0.38);
+}
+.azs-talon-txt {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	padding: 10px 10px;
+	border-left: 1px solid #E5ECF6;
+}
+.azs-talon-txt h3 {
+	margin: 0;
+	padding: 0;
+}
+.azs-talon-txt p {
+	margin: 0;
+	padding: 0;
+}
